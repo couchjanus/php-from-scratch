@@ -4,7 +4,7 @@
     
     define('ROOT', dirname(__DIR__));
     const CONFIG = ROOT.'/config';
-    const VENDOR = ROOT.DIRECTORY_SEPARATOR.'vendor';
+    const VENDOR = ROOT.DIRECTORY_SEPARATOR.'vendor'.DIRECTORY_SEPARATOR.'Framework';
     const APP = ROOT.'/app';
     const CONTROLLERS = ROOT.'/app/Controllers';
     const VIEWS = ROOT.'/app/Views';

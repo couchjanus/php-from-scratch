@@ -1,5 +1,11 @@
 <?php
+// HomeController.php
 
-view('home/index', array(
-	'title' => 'Home Page'
-));
+class HomeController
+{
+    public function index()
+    {
+        $title = 'Our Best Cats Members Home Page';
+        render('home/index', compact('title'));
+    }
+}
